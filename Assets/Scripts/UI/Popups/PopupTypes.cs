@@ -1,7 +1,7 @@
 public enum PopupTypes 
 {
-    BascketPopup,
     ShopPopup,
-    EnergyPopup,
-    RewardPopup,
+    Win,
+    Lose,
+    Pause,
 }

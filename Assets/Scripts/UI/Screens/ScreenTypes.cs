@@ -3,10 +3,7 @@ public enum ScreenTypes
     Home,
     Game,
     Shop,
-    Stories,
-    Story,
     Profile,
+    Achievements,
     Info,
-    Bascket,
-
 }
