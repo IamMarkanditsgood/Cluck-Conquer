@@ -12,7 +12,10 @@ public class ChickenController : MonoBehaviour
     [SerializeField] private float spawnDelay = 0.5f;
 
     public bool isActive;
-
+    public void Toggle(bool state)
+    {
+        isActive = state;
+    }
     private void Start()
     {
         StartCoroutine(SpawnTwoBulletsWithDelay());

@@ -106,6 +106,10 @@ public class Shop : BasicScreen
             ShopPopup popup = (ShopPopup)  UIManager.Instance.GetPopup(PopupTypes.ShopPopup);
             popup.Init(index);
             UIManager.Instance.ShowPopup(PopupTypes.ShopPopup);
+
+            int TotalPuechase = PlayerPrefs.GetInt("TotalPuechase");
+            TotalPuechase++;
+            PlayerPrefs.SetInt("TotalPuechase", TotalPuechase);
         }
     }
 

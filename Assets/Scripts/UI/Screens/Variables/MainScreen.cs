@@ -15,8 +15,6 @@ public class MainScreen : BasicScreen
 
     private void Start()
     {
-        PlayerPrefs.SetInt("Score", 1000);
-
         play.onClick.AddListener(PlayGame);
         profile.onClick.AddListener(Profile);
         shop.onClick.AddListener(Shop);

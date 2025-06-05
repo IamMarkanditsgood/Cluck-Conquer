@@ -59,8 +59,8 @@ public class Profile : BasicScreen
 
         totalPurchased.text = PlayerPrefs.GetInt("TotalPuechase").ToString();
         LevelTimeDone.text = PlayerPrefs.GetInt("LevelTimeDone").ToString();
-        Wins.text = PlayerPrefs.GetInt("Wins").ToString();
-        Loses.text = PlayerPrefs.GetInt("Loses").ToString();
+        Wins.text = PlayerPrefs.GetInt("Win").ToString();
+        Loses.text = PlayerPrefs.GetInt("Lose").ToString();
     }
 
     private void Info()

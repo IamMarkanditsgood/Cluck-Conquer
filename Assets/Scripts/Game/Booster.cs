@@ -23,6 +23,7 @@ public class Booster : MonoBehaviour
         Move();
     }
 
+
     private void Move()
     {
         float direction = movingRight ? 1f : -1f;
